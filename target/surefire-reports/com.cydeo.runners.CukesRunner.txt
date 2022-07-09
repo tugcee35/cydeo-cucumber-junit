@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: com.cydeo.runners.CukesRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.003 s <<< FAILURE! - in com.cydeo.runners.CukesRunner
+com.cydeo.runners.CukesRunner.initializationError  Time elapsed: 0.003 s  <<< ERROR!
+io.cucumber.core.gherkin.FeatureParserException: 
+Failed to parse resource at: file:///Users/tugcealagoz/IdeaProjects/cydeo-cucumber-junit/src/test/resources/features/eventTab.feature
+(3:3): expected: #TagLine, #RuleLine, #Comment, #Empty, got 'Background: user is on the login page'
+(4:5): expected: #TagLine, #RuleLine, #Comment, #Empty, got 'Given user is on the login page of Activity Stream'
+(6:3): expected: #TagLine, #RuleLine, #Comment, #Empty, got 'Scenario: add Event start and ending date and time'
+(7:5): expected: #TagLine, #RuleLine, #Comment, #Empty, got 'Given user click "Calender" from menu'
+(8:5): expected: #TagLine, #RuleLine, #Comment, #Empty, got 'When user click "ADD" button and create New Event'
+(9:5): expected: #TagLine, #RuleLine, #Comment, #Empty, got 'And user change event and time select , select "All day" and specify the time zone'
+(10:5): expected: #TagLine, #RuleLine, #Comment, #Empty, got 'Then user click click "SAVE" button and see the event date and time in the Calendar'
+(12:3): expected: #TagLine, #RuleLine, #Comment, #Empty, got 'Scenario: set reminder'
+(13:5): expected: #TagLine, #RuleLine, #Comment, #Empty, got 'Given user click "Calender" from menu'
+(14:5): expected: #TagLine, #RuleLine, #Comment, #Empty, got 'When user click "ADD" button and create New Event and click "Reminder"'
+(15:5): expected: #TagLine, #RuleLine, #Comment, #Empty, got 'And user select enter description, reminder, event color, calendar, availability, private and CRM items.'
+
